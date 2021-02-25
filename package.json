@@ -12,7 +12,9 @@
     "prettier-format": "npx prettier --config .prettierrc 'src/**/*.ts' --write",
     "prettier-watch": "npx onchange 'src/**/*.ts' -- prettier --write {{changed}}"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@microsoft/signalr": "^5.0.0"
+  },
   "devDependencies": {
     "@types/node": "^14.0.14",
     "@typescript-eslint/eslint-plugin": "^4.0.0",
